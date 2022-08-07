@@ -23,5 +23,4 @@ delete_Elements("p")
 delete_Elements("span")
 delete_Elements("article")
 delete_Elements("img")
-delete_Elements("body")
 
