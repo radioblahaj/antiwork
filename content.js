@@ -1,7 +1,6 @@
 // var content = document.getElementsByTagName('p')
 // content.remove()
-const delay = 30000
-
+const delay = 5000
 function delete_Elements(tag) {
 
 var content = document.getElementsByTagName(tag)
