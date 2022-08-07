@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Get no work done",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+      ],
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["content.js"]
+      }
+      
+    ]
+  }
