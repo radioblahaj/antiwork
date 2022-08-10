@@ -6,7 +6,7 @@ function delete_Elements(tag) {
 var content = document.getElementsByTagName(tag)
 for (let elem = 0; elem < content.length; elem++) {
     setTimeout(() => {
-        content[elem].parentNode.remove()
+        content[elem].remove()
     }, delay * (elem + 1))
 }
 console.log(content)
