@@ -2,15 +2,16 @@
 // content.remove()
 const delay = 5000
 function delete_Elements(tag) {
+const els = document.querySelectorAll("*")
 
-var content = document.getElementsByTagName(tag)
-for (let elem = 0; elem < content.length; elem++) {
     setTimeout(() => {
-        content[elem].remove()
+        els.forEach((el) => el.remove())
     }, delay * (elem + 1))
-}
+
 console.log(content)
 }
+
+
 delete_Elements("h1")
 delete_Elements("h1")
 delete_Elements("h2")
